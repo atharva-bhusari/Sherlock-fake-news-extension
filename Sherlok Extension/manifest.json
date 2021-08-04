@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sherlock",
+  "description": "This extension predicts news.",
+  "version": "1.0",
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon16.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+		"tabs",
+		"http://127.0.0.1:8000/",
+        "http://*/*",
+        "https://*/*",
+		"background",
+        "identity",
+        "notifications",
+        "contextMenus"
+	]
+}

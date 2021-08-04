@@ -1,0 +1,39 @@
+body {
+    background-color: f0f2f5;
+    box-shadow: rgba(0,0,0,0.1) 0px 2px 4px 0px, rgba(0,0,0,0.1) 0px 8px 16px 0px;
+    border-radius: 8px;
+    border: #1877f2 2px dashed;
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: inherit;
+    font-style: oblique;
+    color: #1877f2;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px 80px;
+    font-style: oblique;
+    color: #1877f2;
+    text-decoration: double;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    font-size: medium;
+}
+li {
+    padding-bottom: 12px;
+    font-style: bold;
+}
+
+#rc {
+    color: red;
+    font-style: oblique;
+}
